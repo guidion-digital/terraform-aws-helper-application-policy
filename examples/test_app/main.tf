@@ -4,6 +4,6 @@ module "user_permissions" {
   # Name must match application_name you give the application in it's TFE
   # workspace module "applications" entry
   application_name = "example"
-  dynamodb_tables  = ["arn:aws:dynamodb:uu-west-1:123456789012:table/myDynamoDBTable"]
-  sqs_queues       = ["arn:aws:sqs:eu-west-1:123456789012:my-queue-name"]
+  dynamodb_tables  = ["arn:aws:dynamodb:eu-central-1:000000000000:table/myDynamoDBTable"]
+  sqs_queues       = ["arn:aws:sqs:eu-central-1:000000000000:my-queue-name"]
 }
